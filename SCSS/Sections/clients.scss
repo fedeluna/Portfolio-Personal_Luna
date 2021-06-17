@@ -1,0 +1,41 @@
+
+.c-clients_content {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+@mixin c-clients_logo($color) {
+    &:hover {
+        transform: scale(1.03);
+        fill: $color;
+    }
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem;
+    fill: $gray-02;
+    transition: fill 300ms, transform 300ms ease-in-out;
+}
+
+.c-clients_logo-refokus {
+    @include c-clients_logo(#7443ff);
+
+}
+
+.c-clients_logo-bons {
+    @include c-clients_logo(#3BCEBE);
+}
+
+.c-clients_logo-atelier {
+    @include c-clients_logo(#E88F86);
+    position: relative;
+    top: 5.2px;
+}
+
+.c-clients_logo-ficovisual {
+    @include c-clients_logo(#4b5279);
+    margin-right: 0;
+}
+

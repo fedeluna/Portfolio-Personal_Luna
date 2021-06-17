@@ -1,0 +1,86 @@
+/* ----------------------------------------------------------------------------  */
+/* Rooting */
+
+root {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+@import "Styleguide/colors.scss";
+
+/* ----------------------------------------------------------------------------  */
+/* Texts */
+@import "Styleguide/texts.scss";
+
+/* ----------------------------------------------------------------------------  */
+/* Components */
+
+@import "Styleguide/components.scss";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-family: Forma-DJR-Display, sans-serif;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: $black;
+    background-color: $gray-04;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ----------------------------------------------------------------------------  */
+/* Header */
+
+@import "Sections/header";
+
+/* ----------------------------------------------------------------------------  */
+/* Hero */
+
+@import "Sections/hero";
+
+/* ----------------------------------------------------------------------------  */
+/* Carousel */
+
+@import "Sections/carousel";
+
+/* ----------------------------------------------------------------------------  */
+/* Clients */
+
+@import "Sections/clients";
+
+/* ----------------------------------------------------------------------------  */
+/* Expertise */
+
+@import "Sections/expertise";
+
+/* ----------------------------------------------------------------------------  */
+/* Projects */
+
+@import "Sections/projects";
+
+/* ----------------------------------------------------------------------------  */
+/* My Process */
+
+@import "Sections/process";
+
+/* ----------------------------------------------------------------------------  */
+/* Testimonial */
+
+@import "Sections/testimonial";
+
+/* ----------------------------------------------------------------------------  */
+/* FAQs */
+
+@import "Sections/faqs";
+
+/* ----------------------------------------------------------------------------  */
+/* Footer */
+
+@import "Sections/footer";
