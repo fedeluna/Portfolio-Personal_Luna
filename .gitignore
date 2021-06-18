@@ -1,0 +1,14 @@
+# Ignora archivos del sistema Mac 
+.DS_store
+
+.sass-cache
+
+Libraries/node_modules
+
+Libraries/package-lock.json
+
+Libraries/package.json
+
+Backup CSS/
+
+Wireframe
