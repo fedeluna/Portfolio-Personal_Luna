@@ -39,6 +39,11 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 69rem;
+
+    @media (max-width:425px) {
+        flex-flow: column-reverse;
+        
+    }
 }
 
 @mixin c-expertise_card($title, $shadow) {
@@ -76,6 +81,11 @@
 .c-expertise_card01 {
     @include c-expertise_card($red, 64px 64px 160px $shadow-black);
     transform: scale(1.05);
+
+    @media (max-width:425px) {
+        margin-bottom: 6rem;
+        
+    }
 
     .c-expertise_img {
         @include c-expertise_img(24rem, -5rem);
