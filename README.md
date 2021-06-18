@@ -1,5 +1,10 @@
 # Personal Portfolio
 
----
+This is my first web development project ever. Made for the Coderhouse's course **Web Development** in 2021. Sponsored by **Refokus Agency**.
 
-Primer projecto de desarrollo web para coderhouse que consistió en desarrollar un portfolio personal
+
+## Check out the live site here!
+
+
+
+
