@@ -1074,8 +1074,7 @@ body {
 .cc-section_process {
   margin-top: unset;
   padding-top: 10rem;
-  padding-bottom: 8.5rem;
-  background-color: #140E0E; }
+  padding-bottom: 8.5dark-black; }
   .cc-section_process .c-container {
     display: flex;
     justify-content: space-between;
