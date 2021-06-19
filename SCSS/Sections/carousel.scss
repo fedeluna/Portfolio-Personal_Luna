@@ -25,7 +25,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    animation-duration: 12s;
+    animation-duration: 20s;
     animation-name: slidein;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -36,7 +36,7 @@
           }
       
           to {
-            margin-left: -51rem;
+            margin-left: -102rem;
           }
     }
 

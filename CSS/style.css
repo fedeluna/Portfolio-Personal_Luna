@@ -434,7 +434,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  animation-duration: 12s;
+  animation-duration: 20s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-timing-function: linear; }
@@ -442,7 +442,7 @@ body {
   from {
     margin-left: 0rem; }
   to {
-    margin-left: -51rem; } }
+    margin-left: -102rem; } }
   @media (max-width: 991px) {
     @keyframes slidein {
       from {
@@ -1074,7 +1074,7 @@ body {
 .cc-section_process {
   margin-top: unset;
   padding-top: 10rem;
-  padding-bottom: 18.5rem;
+  padding-bottom: 8.5rem;
   background-color: #140E0E; }
   .cc-section_process .c-container {
     display: flex;
