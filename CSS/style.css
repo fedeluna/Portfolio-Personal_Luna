@@ -1725,4 +1725,48 @@ body {
     .c-footer_nav-links a {
       margin: 0 0.5rem; } }
 
+/* ----------------------------------------------------------------------------  */
+/* 404 */
+.cc-404 {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.c-404-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem; }
+  .c-404-wrapper .c-404-img {
+    width: 25rem; }
+  .c-404-wrapper .c-404-text {
+    position: absolute;
+    font-size: 10.5rem;
+    line-height: 10.5rem;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: #FF4F3C;
+    top: 38.5%;
+    z-index: -100; }
+  @media (max-width: 425px) {
+    .c-404-wrapper .c-404-img {
+      width: 20rem; }
+    .c-404-wrapper .c-404-text {
+      font-size: 8.5rem;
+      top: 33.5%; } }
+
+.c-404-copy {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; }
+
+.cc-404-footer {
+  padding: 2rem;
+  border: none; }
+
 /*# sourceMappingURL=style.css.map */
