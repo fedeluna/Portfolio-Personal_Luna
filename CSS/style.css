@@ -225,7 +225,9 @@ body {
   left: 0;
   right: 0;
   z-index: 100;
-  height: 66px; }
+  height: 66px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem; }
   @media (max-width: 991px) {
     .c-header {
       height: initial;
@@ -243,6 +245,9 @@ body {
     .navbar {
       max-width: 100%;
       padding: 0 2.5rem !important; } }
+  @media (max-width: 425px) {
+    .navbar {
+      padding: 0 1.25rem !important; } }
 
 .container-fluid {
   padding: 0; }
@@ -252,6 +257,10 @@ body {
       flex-direction: row; }
       .container-fluid button {
         order: 2; }
+      .container-fluid .social-wrapper {
+        order: 1; }
+      .container-fluid .navbar-collapse {
+        order: 3; }
       .container-fluid .c-nav_social {
         padding-left: 0;
         padding-right: 2rem; }
@@ -275,6 +284,14 @@ body {
 .navbar-collapse {
   list-style: none; }
 
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; } }
+
 .nav-item {
   padding: 0.5rem;
   margin-right: 1rem;
@@ -284,6 +301,10 @@ body {
   .nav-item:hover .current-link {
     width: 4px;
     height: 4px; }
+  @media (max-width: 991px) {
+    .nav-item {
+      margin-bottom: 1.5rem;
+      margin-right: 0; } }
 
 .nav-link {
   padding: 0 !important;
@@ -294,6 +315,10 @@ body {
   transition: all 300ms ease-in-out; }
   .nav-link:visited {
     color: none; }
+  @media (max-width: 991px) {
+    .nav-link {
+      font-size: 2rem;
+      line-height: 2rem; } }
 
 .nav-link.active {
   color: #FF4F3C !important; }
@@ -826,7 +851,8 @@ body {
       padding: unset; } }
   @media (min-width: 320px) and (max-width: 1399px) {
     .cc-section_projects .container-sm {
-      max-width: 100%; } }
+      max-width: 100%;
+      padding: 0; } }
   @media (max-width: 991px) {
     .cc-section_projects {
       padding-top: 5rem; }
