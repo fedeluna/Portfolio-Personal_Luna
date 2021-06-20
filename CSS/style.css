@@ -142,7 +142,7 @@ root {
 
 .c-button-1 {
   color: #FAFAFA;
-  background-color: #FF4F3B;
+  background-color: #FF4F3C;
   border: none;
   border-radius: 100px;
   display: flex;
@@ -157,14 +157,14 @@ root {
   transition-timing-function: ease-in-out; }
   .c-button-1:hover {
     color: #FAFAFA;
-    background-color: #FF4F3B;
+    background-color: #FF4F3C;
     box-shadow: 0px 8px 32px rgba(255, 79, 59, 0.24);
     transform: scale(1.03); }
 
 .c-button-2 {
-  color: #FF4F3B;
+  color: #FF4F3C;
   background-color: none;
-  border: 2px solid #FF4F3B;
+  border: 2px solid #FF4F3C;
   border-radius: 100px;
   display: flex;
   align-items: center;
@@ -177,28 +177,28 @@ root {
   transition: background-color 300ms, box-shadow 300ms, transform 300ms;
   transition-timing-function: ease-in-out; }
   .c-button-2:hover {
-    color: #FF4F3B;
+    color: #FF4F3C;
     box-shadow: 0px 8px 32px rgba(255, 79, 59, 0.24);
     transform: scale(1.03); }
 
 .c-button-3 {
   font-weight: 500;
   letter-spacing: unset;
-  color: #FF4F3B;
+  color: #FF4F3C;
   text-decoration: unset;
   transition: color 300ms, opacity 300ms;
   transition-timing-function: ease-in-out; }
   .c-button-3:hover {
-    color: #FF4F3B;
+    color: #FF4F3C;
     opacity: 0.75; }
   .c-button-3 svg {
-    fill: #FF4F3B;
+    fill: #FF4F3C;
     margin-left: 0.3rem;
     height: 100%;
     transition: fill 300ms, transform 300ms, opacity 300ms;
     transition-timing-function: ease-in-out; }
   .c-button-3:hover svg {
-    fill: #FF4F3B;
+    fill: #FF4F3C;
     transform: translateX(4px);
     opacity: 0.75; }
 
@@ -283,11 +283,11 @@ body {
     color: none; }
 
 .nav-link.active {
-  color: #FF4F3B !important; }
+  color: #FF4F3C !important; }
   .nav-link.active ~ .current-link {
     width: 4px;
     height: 4px;
-    background-color: #FF4F3B; }
+    background-color: #FF4F3C; }
 
 .current-link {
   width: 0px;
@@ -325,7 +325,7 @@ body {
     .c-nav_social li:hover svg {
       transform: scale(1.1); }
       .c-nav_social li:hover svg path {
-        fill: #FF4F3B; }
+        fill: #FF4F3C; }
   @media (max-width: 991px) {
     .c-nav_social {
       margin: 0; } }
@@ -580,7 +580,7 @@ body {
       flex-flow: column-reverse; } }
 
 .c-expertise_card01 {
-  color: #FF4F3B;
+  color: #FF4F3C;
   box-shadow: 64px 64px 160px rgba(0, 0, 0, 0.12);
   position: relative;
   display: flex;
@@ -675,7 +675,7 @@ body {
     .c-expertise_card02:hover + .c-expertise_card01 .c-expertise_img {
       transform: translateY(-1rem); }
   .c-expertise_card02:hover {
-    color: #FF4F3B;
+    color: #FF4F3C;
     box-shadow: 64px 64px 160px rgba(0, 0, 0, 0.12);
     position: relative;
     display: flex;
@@ -1209,7 +1209,7 @@ body {
   max-width: 27rem;
   height: 100%; }
   .c-process_copy .c-title-2 {
-    color: #FF4F3B;
+    color: #FF4F3C;
     margin-bottom: 1rem; }
   @media (max-width: 991px) {
     .c-process_copy {
@@ -1403,7 +1403,7 @@ body {
     font-size: 2rem;
     line-height: 2.75rem;
     letter-spacing: 0.156rem;
-    color: #FF4F3B; }
+    color: #FF4F3C; }
   @media (max-width: 991px) {
     .c-testimonial_content-quote {
       margin-bottom: 2rem; }
@@ -1414,7 +1414,7 @@ body {
         font-size: 1.75rem;
         line-height: 2.5rem;
         letter-spacing: 1px;
-        color: #FF4F3B; } }
+        color: #FF4F3C; } }
   @media (max-width: 425px) {
     .c-testimonial_content-quote blockquote {
       font-size: 1.25rem;
@@ -1511,7 +1511,7 @@ body {
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.12);
     transition: transform 300ms, box-shadow 300ms ease-in-out; }
   .accordion-button:not(.collapsed) {
-    color: #FF4F3B;
+    color: #FF4F3C;
     background-color: #FAFAFA;
     box-shadow: unset;
     padding-top: 2rem; }
@@ -1631,7 +1631,7 @@ body {
         display: none; } }
 
 .c-footer_contact .c-text-2 {
-  color: #FF4F3B; }
+  color: #FF4F3C; }
 .c-footer_contact .c-button-2 {
   color: #FAFAFA;
   border-color: #FAFAFA;
@@ -1656,7 +1656,7 @@ body {
       margin-bottom: 2rem; } }
 
 .c-footer_copy .c-title-2 {
-  color: #FF4F3B;
+  color: #FF4F3C;
   margin-bottom: 2rem; }
 .c-footer_copy .c-text-2 {
   max-width: 27rem; }
@@ -1676,7 +1676,7 @@ body {
     border-radius: 500px;
     transition: background 300ms ease-in-out; }
     .c-footer_social a:hover {
-      background-color: #FF4F3B; }
+      background-color: #FF4F3C; }
     .c-footer_social a svg {
       margin: auto;
       transition: transform 300ms ease-in-out; }
@@ -1749,7 +1749,7 @@ body {
     line-height: 10.5rem;
     letter-spacing: 4px;
     font-weight: 500;
-    color: #FF4F3B;
+    color: #FF4F3C;
     top: 38.5%;
     z-index: -100; }
   @media (max-width: 425px) {
