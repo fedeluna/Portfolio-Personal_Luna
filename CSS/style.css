@@ -848,7 +848,7 @@ body {
     .c-project_1 {
       height: 24.6rem; } }
   .c-project_1 .c-projects_img {
-    background-image: url("/Images/Assets_Projects_01.png");
+    background-image: url("../Images/Assets_Projects_01.png");
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -869,7 +869,7 @@ body {
     .c-project_2 {
       height: 24.6rem; } }
   .c-project_2 .c-projects_img {
-    background-image: url("/Images/Assets_Projects_02.png");
+    background-image: url("../Images/Assets_Projects_02.png");
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -890,7 +890,7 @@ body {
     .c-project_3 {
       height: 24.6rem; } }
   .c-project_3 .c-projects_img {
-    background-image: url("/Images/Assets_Projects_03.png");
+    background-image: url("../Images/Assets_Projects_03.png");
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -911,7 +911,7 @@ body {
     .c-project_4 {
       height: 24.6rem; } }
   .c-project_4 .c-projects_img {
-    background-image: url("/Images/Assets_Projects_04.png");
+    background-image: url("../Images/Assets_Projects_04.png");
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -932,7 +932,7 @@ body {
     .c-project_5 {
       height: 24.6rem; } }
   .c-project_5 .c-projects_img {
-    background-image: url("/Images/Assets_Projects_05.png");
+    background-image: url("../Images/Assets_Projects_05.png");
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -1022,7 +1022,7 @@ body {
       height: 24.6rem; } }
 @media (max-width: 425px) {
     .c-project_1 .c-projects_img {
-      background-image: url("/Images/Assets_Projects_01_MOBILE.png");
+      background-image: url("../Images/Assets_Projects_01_MOBILE.png");
       position: absolute;
       z-index: -1;
       width: 100%;
@@ -1059,7 +1059,7 @@ body {
       height: 24.6rem; } }
 @media (max-width: 425px) {
     .c-project_3 .c-projects_img {
-      background-image: url("/Images/Assets_Projects_03_MOBILE.png");
+      background-image: url("../Images/Assets_Projects_03_MOBILE.png");
       position: absolute;
       z-index: -1;
       width: 100%;
@@ -1097,7 +1097,7 @@ body {
       height: 24.6rem; } }
 @media (max-width: 425px) {
     .c-project_5 .c-projects_img {
-      background-image: url("/Images/Assets_Projects_05_MOBILE.png");
+      background-image: url("../Images/Assets_Projects_05_MOBILE.png");
       position: absolute;
       z-index: -1;
       width: 100%;
@@ -1432,6 +1432,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start; }
+    .c-testimonial_content-author .c-testimonial_author-copy .c-title-6 {
+      margin: 0; }
 
 /* ----------------------------------------------------------------------------  */
 /* FAQs */

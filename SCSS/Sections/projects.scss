@@ -97,7 +97,7 @@
     @include c-project(2.5rem 0 0 2.5rem, $project-01);
 
     .c-projects_img {
-        @include c-project_img(url('/Images/Assets_Projects_01.png'));
+        @include c-project_img(url('../Images/Assets_Projects_01.png'));
     }
 }
 
@@ -105,7 +105,7 @@
     @include c-project(0 0 2.5rem 2.5rem, $project-02);
 
     .c-projects_img {
-        @include c-project_img(url('/Images/Assets_Projects_02.png'));
+        @include c-project_img(url('../Images/Assets_Projects_02.png'));
     }
 }
 
@@ -113,7 +113,7 @@
     @include c-project(0 2.5rem, $project-03);
 
     .c-projects_img {
-        @include c-project_img(url('/Images/Assets_Projects_03.png'));
+        @include c-project_img(url('../Images/Assets_Projects_03.png'));
     }
 }
 
@@ -121,7 +121,7 @@
     @include c-project(0 2.5rem 0 0, $project-04);
     
     .c-projects_img {
-        @include c-project_img(url('/Images/Assets_Projects_04.png'));
+        @include c-project_img(url('../Images/Assets_Projects_04.png'));
     }
 }
 
@@ -129,7 +129,7 @@
     @include c-project(0 0 2.5rem 0, $project-05);
 
     .c-projects_img {
-        @include c-project_img(url('/Images/Assets_Projects_05.png'));
+        @include c-project_img(url('../Images/Assets_Projects_05.png'));
     }
 }
 
@@ -166,7 +166,7 @@
         max-height: 12rem;
 
         .c-projects_img {
-            @include c-project_img(url('/Images/Assets_Projects_01_MOBILE.png'));
+            @include c-project_img(url('../Images/Assets_Projects_01_MOBILE.png'));
         }
     }
 
@@ -180,7 +180,7 @@
         max-height: 20rem;
 
         .c-projects_img {
-            @include c-project_img(url('/Images/Assets_Projects_03_MOBILE.png'));
+            @include c-project_img(url('../Images/Assets_Projects_03_MOBILE.png'));
         }
     }
 
@@ -195,7 +195,7 @@
         max-height: 12rem;
 
         .c-projects_img {
-            @include c-project_img(url('/Images/Assets_Projects_05_MOBILE.png'));
+            @include c-project_img(url('../Images/Assets_Projects_05_MOBILE.png'));
         }
     }
 }

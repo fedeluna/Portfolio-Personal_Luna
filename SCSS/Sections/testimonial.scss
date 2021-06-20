@@ -207,5 +207,9 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+
+        .c-title-6 {
+            margin: 0;
+        }
     }
 }
