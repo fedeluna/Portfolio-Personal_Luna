@@ -2,6 +2,10 @@
 .cc-container_faqs {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width:425px) {
+        padding: 0;
+    }
 }
 
 .c-faqs_col01 {
@@ -13,6 +17,10 @@
         @media (max-width:991px) {
             margin-bottom: 3.5rem;
         }
+
+        @media (max-width:425px) {
+            padding: 0 1.25rem;
+        }
     }
 }
 
@@ -22,6 +30,10 @@
     background-color: $gray-03;
     margin-bottom: 2rem;
     opacity: 0.64;
+
+    @media (max-width:425px) {
+        margin-bottom: 1rem;
+    }
 
 }
 
@@ -34,6 +46,10 @@
     @media (max-width:991px) {
         margin-bottom: 1.5rem;
         
+    }
+
+    @media (max-width:425px) {
+        margin-bottom: 1rem;
     }
 }
 
@@ -53,7 +69,11 @@
     border-radius: 0.5rem 0.5rem 0 0;
 
     p {
-        margin-right: 2.5rem;  
+        margin-right: 2.5rem;
+        
+        @media (max-width:425px) {
+            margin-right: 1.5rem;
+        }
     }
 
     &:focus {

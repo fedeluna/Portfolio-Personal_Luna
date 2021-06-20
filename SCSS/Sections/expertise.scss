@@ -30,6 +30,11 @@
             margin-bottom: 4px;
         }
     }
+
+    @media (max-width:425px) {
+        margin-bottom: 6rem;
+        
+    }
 }
 
 .c-expertise {
@@ -82,11 +87,6 @@
     @include c-expertise_card($red, 64px 64px 160px $shadow-black);
     transform: scale(1.05);
 
-    @media (max-width:425px) {
-        margin-bottom: 6rem;
-        
-    }
-
     .c-expertise_img {
         @include c-expertise_img(24rem, -5rem);
     }
@@ -100,6 +100,11 @@
             @include c-expertise_img(17.5rem, -3rem);            
         }
 
+    }
+
+    @media (max-width:425px) {
+        margin-bottom: 5rem;
+        
     }
 }
 

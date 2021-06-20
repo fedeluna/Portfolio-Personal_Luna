@@ -10,6 +10,11 @@
         padding: 2rem;
 
     }
+
+    @media (max-width:425px) {
+        margin-top: 0;
+        padding: 1.25rem;
+    }
 }
 
 .c-carousel_inner {
@@ -29,6 +34,12 @@
         flex-direction: column-reverse;
         max-width: 100%;
     }
+
+    @media (max-width:425px) {
+        padding: 2rem;
+    }
+
+    
 }
 
 .c-arrows_container {
@@ -168,6 +179,15 @@
             line-height: 2.5rem;
             letter-spacing: 1px;
             color: $red;
+        }
+    }
+
+    @media (max-width:425px) {
+
+        blockquote {
+            font-size: 1.25rem;
+            line-height: 2rem;
+
         }
     }
 }
