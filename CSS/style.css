@@ -1791,6 +1791,7 @@ body {
 .c-footer_contact .c-text-2 {
   color: #FF4F3C; }
 .c-footer_contact .c-button-2 {
+  display: none;
   color: #FAFAFA;
   border-color: #FAFAFA;
   transition: background-color 500ms, border 500ms, transform 300ms ease-in-out; }
@@ -1801,9 +1802,11 @@ body {
   @media (max-width: 991px) {
     .c-footer_contact .c-button-2 {
       display: inline-block; } }
-@media (max-width: 768px) {
-  .c-footer_contact #CopyTrigger2 {
-    display: none; } }
+.c-footer_contact #CopyTrigger2 {
+  display: inline-block; }
+  @media (max-width: 991px) {
+    .c-footer_contact #CopyTrigger2 {
+      display: none; } }
 
 .c-footer_col2 {
   display: flex;
