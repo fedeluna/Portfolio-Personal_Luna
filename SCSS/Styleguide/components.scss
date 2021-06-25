@@ -1,3 +1,6 @@
+
+/* Section & Container */
+
 .c-section {
     padding: 5rem 0;
     display: block;
@@ -25,6 +28,10 @@
         padding-right: 1.25rem;
     }
 }
+
+/* ----------------------------------------------------------------------------  */
+
+/* Buttons */
 
 @mixin c-button($color, $bg, $border) {
     color: $color;

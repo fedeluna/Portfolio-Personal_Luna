@@ -8,15 +8,21 @@ root {
   text-decoration: none;
   scroll-behavior: smooth; }
 
+/* Main */
+/* ----------------------------------------------------------------------------  */
+/* Gray Range */
+/* ----------------------------------------------------------------------------  */
+/* Projects */
 /* ----------------------------------------------------------------------------  */
 /* Texts */
-/* these settings override the bootstrap */
+/* these settings override the bootstrap ones */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-top: unset;
   margin-bottom: unset;
   font-weight: unset;
   line-height: unset; }
 
+/* ----------------------------------------------------------------------------  */
 .c-title-1 {
   font-size: 7rem;
   font-weight: 500;
@@ -67,6 +73,8 @@ root {
   letter-spacing: inherit;
   color: #8D9094; }
 
+/* ----------------------------------------------------------------------------  */
+/* Responsive */
 @media (max-width: 991px) {
   .c-title-1 {
     font-size: 5rem;
@@ -117,6 +125,7 @@ root {
     letter-spacing: 2px; } }
 /* ----------------------------------------------------------------------------  */
 /* Components */
+/* Section & Container */
 .c-section {
   padding: 5rem 0;
   display: block;
@@ -140,6 +149,8 @@ root {
       padding-left: 1.25rem;
       padding-right: 1.25rem; } }
 
+/* ----------------------------------------------------------------------------  */
+/* Buttons */
 .c-button-1 {
   color: #FAFAFA;
   background-color: #FF4F3C;

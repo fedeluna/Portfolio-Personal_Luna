@@ -1,11 +1,14 @@
 
-/* these settings override the bootstrap */
+/* these settings override the bootstrap ones */
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-top: unset;
     margin-bottom: unset;
     font-weight: unset;
     line-height: unset;
 }
+
+/* ----------------------------------------------------------------------------  */
 
 @mixin c-texts ($size, $weight, $height, $space) {
     font-size: $size;
@@ -47,6 +50,10 @@
     @include c-texts(1rem, 400, 1.50rem, inherit);
     color: $gray-01;
 }
+
+/* ----------------------------------------------------------------------------  */
+
+/* Responsive */
 
 @media (max-width:991px) {
 
