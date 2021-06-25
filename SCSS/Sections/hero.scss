@@ -34,6 +34,7 @@
     display: flex;
     justify-content: flex-start;
     padding-top: 8rem;
+    position: relative;
 
     @media (max-width:991px) {
         padding-top: 3rem;
@@ -119,12 +120,19 @@
     }
 
     a, .c-link_copy {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         padding: 1rem 1.75rem;
         text-decoration: none;
         color: $black;
         background-color: $gray-04;
         transition: all 300ms ease-in-out;
         cursor: pointer;
+
+        p {
+            margin: unset;
+        }
 
         svg {
             margin-right: 0.5rem;
@@ -162,6 +170,31 @@
         .c-button-1 {
             margin-bottom: 0.8rem;
         }
+    }
+}
+
+.c-alert {
+    display: none;
+    color: white;
+    font-weight: 500;
+    background-color: $black;
+    padding: 1rem 1.5rem;
+    border-radius: 100px;
+    position: absolute;
+    right: 0%;
+    top: 10%;
+
+    @media (max-width:991px) {
+        top: -32%;
+    }
+
+    @media (max-width:698px) {
+        top: -20%;
+    }
+
+    @media (max-width:425px) {
+        top: -35%;
+        right: 25%; 
     }
 }
 
