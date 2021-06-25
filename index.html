@@ -40,6 +40,11 @@
     <link rel="preconnect" href="https://use.typekit.net/lef1xqr.css">
     <link rel="dns-prefetch" href="https://use.typekit.net/lef1xqr.css">
 
+    <!-- Script for Copy to Clipboard -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
 
 <body>
@@ -171,11 +176,13 @@
 
         <div class="c-container">
 
-            <!-- Hero Avatar MOBILE -->
+            <!-- Hero Avatar for MOBILE -->
             <div class="c-hero_avatar-mobile">
+
                 <img src="Images/Assets_Hero_Avatar.png" alt="Federico Luna" loading="lazy">
 
                 <div>
+
                     <p class="c-title-5">
                         Federico Luna
                     </p>
@@ -183,14 +190,21 @@
                     <p class="c-text-2">
                         UX/UI Designer
                     </p>
+
                 </div>
 
             </div>
 
             <div class="c-hero_copy">
+
                 <h1 class="c-title-1">
                     Where aesthetics & functionality meets...
                 </h1>
+
+                <span class="c-alert">
+                    Copy to clipboard! ✅
+                </span>
+
             </div>
 
             <div class="c-hero_bottom">
@@ -198,23 +212,28 @@
                 <!-- CTAs Container -->
                 <div class="c-hero_bottom-cta">
 
+                    <!-- Dropdown Button -->
                     <div class="c-button-dropdown_wrapper">
 
                         <div class="c-button-wrapper">
-                            <button class="c-button-1">Hi@federicoluna.com</button>
-                            <a class="c-button-1 mobile" href="mailto:hi@federicoluna.com" target="/blank">Hi@federicoluna.com</a>
+
+                            <button class="c-button-1" id="ToBeCopied">Hi@federicoluna.com</button>
+
+                            <a class="c-button-1 mobile" href="mailto:hi@federicoluna.com"
+                                target="/blank">Hi@federicoluna.com</a>
+
                         </div>
 
                         <div class="c-button_dropdown">
 
-                            <div class="c-link_copy">
+                            <div class="c-link_copy" id="CopyTrigger">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M9.33379 14.6666H2.66712C2.30984 14.679 1.96344 14.5426 1.71065 14.2898C1.45786 14.037 1.32137 13.6906 1.33379 13.3333V6.66663C1.32137 6.30935 1.45786 5.96295 1.71065 5.71016C1.96344 5.45737 2.30984 5.32088 2.66712 5.3333H5.33379V2.66663C5.32137 2.30935 5.45786 1.96295 5.71065 1.71016C5.96344 1.45737 6.30984 1.32088 6.66712 1.3333H13.3338C13.6911 1.32088 14.0375 1.45737 14.2903 1.71016C14.543 1.96295 14.6795 2.30935 14.6671 2.66663V9.3333C14.6793 9.69053 14.5428 10.0368 14.29 10.2896C14.0373 10.5423 13.691 10.6788 13.3338 10.6666H10.6671V13.3333C10.6793 13.6905 10.5428 14.0368 10.29 14.2896C10.0373 14.5423 9.69101 14.6788 9.33379 14.6666ZM2.66712 6.66663V13.3333H9.33379V10.6666H6.66712C6.30989 10.6788 5.96361 10.5423 5.71087 10.2896C5.45812 10.0368 5.32157 9.69053 5.33379 9.3333V6.66663H2.66712ZM6.66712 2.66663V9.3333H13.3338V2.66663H6.66712Z"
                                         fill="#BABDC2" />
                                 </svg>
-                                Copy to clipboard
+                                <p>Copy to clipboard</p>
                             </div>
 
                             <div class="c-button_divider"></div>
@@ -227,18 +246,21 @@
                                         fill="#BABDC2" />
                                 </svg>
                                 Open your mail app</a>
-
                         </div>
+
                     </div>
 
                     <a class="c-button-2" href="#Work">See my work</a>
+
                 </div>
 
                 <!-- Hero Avatar -->
                 <div class="c-hero_bottom-avatar">
+
                     <img src="Images/Assets_Hero_Avatar.png" alt="Avatar from Federico Luna" loading="lazy">
 
                     <div class="c-hero_bottom-avatar_copy">
+
                         <h5 class="c-title-5">
                             Federico Luna
                         </h5>
@@ -246,7 +268,9 @@
                         <h6 class="c-text-2">
                             UX/UI Designer
                         </h6>
+
                     </div>
+
                 </div>
 
             </div>
@@ -254,6 +278,35 @@
         </div>
 
     </section>
+
+    <script>
+
+        function copy(copyId) {
+
+            var $inp = $("<input>");
+            $("body").append($inp);
+            $inp.val($("" + copyId).
+                text()).select();
+
+            document.execCommand("copy");
+            $inp.remove();
+            $(".c-alert").fadeIn("slow", function () {
+                setTimeout(function () {
+                    $(".c-alert").fadeOut();
+                }, 1200);
+            });
+        }
+
+        $(document).ready(function () {
+
+            $("#CopyTrigger").click(
+
+                function () {
+                    copy("#ToBeCopied");
+                });
+        });
+
+    </script>
     <!-- ---------------------------------------------------------------------------- -->
 
     <!-- Photo Carousel -->
