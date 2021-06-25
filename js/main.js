@@ -10,18 +10,6 @@ window.onload = function () {
 
 // -------------------------------------------------------
 
-// Close mobile nav-menu
-
-const navbar = document.querySelector('#navbarSupportedContent');
-const remove = document.querySelector('.nav-item');
-
-addEventListener('click', () => {
-    navbar.classList.remove('show');
-
-})
-
-// -------------------------------------------------------
-
 // Copy to Clipboard
 
 function copy(copyId) {
@@ -43,6 +31,12 @@ function copy(copyId) {
 $(document).ready(function () {
 
     $("#CopyTrigger").click(
+
+        function () {
+            copy("#ToBeCopied");
+        });
+
+    $("#CopyTrigger2").click(
 
         function () {
             copy("#ToBeCopied");
