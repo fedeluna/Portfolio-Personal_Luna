@@ -120,6 +120,12 @@
             display: inline-block;
         }
     }
+
+    #CopyTrigger2 {
+        @media (max-width:768px) {
+            display: none;   
+        }
+    }
 }
 
 .c-footer_col2 {

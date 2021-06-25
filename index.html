@@ -53,7 +53,7 @@
     <!-- ScrollSpy Script -->
     <script src="Libraries/simple-scrollspy.min.js"></script>
 
-    <!-- Main Script -->
+    <!-- Main cript -->
     <script src="js/main.js"></script>
 
 </head>
@@ -180,6 +180,17 @@
         </nav>
 
     </header>
+
+    <!-- Close Mobile Menu Script -->
+    <script>
+        const navbar = document.querySelector('#navbarSupportedContent');
+        const remove = document.querySelector('.nav-item');
+
+        addEventListener('click', () => {
+            navbar.classList.remove('show');
+
+        })
+    </script>
     <!-- ---------------------------------------------------------------------------- -->
 
     <!-- Hero Section -->
@@ -1035,7 +1046,10 @@
                             Email me at
                         </p>
 
-                        <a class="c-button-2" href="">hi@federicoluna.com</a>
+                        <a href="#Footer" class="c-button-2" id="CopyTrigger2">hi@federicoluna.com</a>
+
+                        <!-- For Mobile -->
+                        <a href="mailto:hi@federicoluna.com" target="/blank" class="c-button-2">hi@federicoluna.com</a>
                     </div>
 
                 </div>
@@ -1117,6 +1131,10 @@
             </div>
 
         </section>
+
+        <span class="c-alert">
+            Copied to clipboard! ✅
+        </span>
 
     </footer>
     <!-- ---------------------------------------------------------------------------- -->

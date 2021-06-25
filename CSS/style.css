@@ -1798,6 +1798,9 @@ body {
   @media (max-width: 991px) {
     .c-footer_contact .c-button-2 {
       display: inline-block; } }
+@media (max-width: 768px) {
+  .c-footer_contact #CopyTrigger2 {
+    display: none; } }
 
 .c-footer_col2 {
   display: flex;
