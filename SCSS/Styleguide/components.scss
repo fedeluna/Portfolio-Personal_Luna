@@ -63,12 +63,14 @@
 }
 
 .c-button-2 {
-    @include c-button($red, none, 2px solid $red);
+    @include c-button($red, none, none);
+    border-style: inset;
+    border: 2px solid $red;
 
     &:hover {
         color: $red;
-        background: #FAD7D3;;
-        border-color: #FAD7D3;;
+        background: #FAD7D3;
+        border-color: #FAD7D3;
         box-shadow: 0px 8px 32px $red-shadow;
         transform: translateY(2px) and scale(1.03);
     }
