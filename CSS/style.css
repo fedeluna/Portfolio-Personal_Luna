@@ -6,7 +6,7 @@ root {
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
-  scroll-behavior: ssmooth; }
+  scroll-behavior: smooth; }
 
 /* Main */
 /* ----------------------------------------------------------------------------  */
@@ -16,7 +16,18 @@ root {
 /* ----------------------------------------------------------------------------  */
 /* Texts */
 /* these settings override the bootstrap ones */
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: unset;
   margin-bottom: unset;
   font-weight: unset;
@@ -741,8 +752,7 @@ body {
   border-radius: 4px;
   background-color: #FAFAFA;
   transition: box-shadow 500ms, color 500ms, transform 500ms;
-  transition-timing-function: ease-in-out;
-  transform: scale(1.05); }
+  transition-timing-function: ease-in-out; }
   @media (max-width: 991px) {
     .c-expertise_card01 {
       padding: 10.25rem 1.5rem 1.5rem 1.5rem; } }
