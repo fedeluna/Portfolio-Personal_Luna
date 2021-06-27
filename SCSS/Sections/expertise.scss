@@ -72,6 +72,7 @@
 
 .c-expertise_card01 {
     @include c-expertise_card($red, 64px 64px 160px $shadow-black);
+    transform: scale(108%);
     .c-expertise_img {
         @include c-expertise_img(24rem, -5rem);
     }
@@ -100,7 +101,7 @@
     }
     &:hover {
         @include c-expertise_card($red, 64px 64px 160px $shadow-black);
-        transform: scale(1.05)
+        transform: scale(1.08)
     }
     .c-expertise_img {
         @include c-expertise_img(12rem, -5rem);
