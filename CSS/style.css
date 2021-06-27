@@ -754,49 +754,53 @@ body {
   justify-content: center; }
 
 .c-clients_logo-refokus {
+  fill: #BABDC2;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: 1rem;
-  fill: #BABDC2;
-  transition: fill 300ms, transform 300ms ease-in-out; }
-  .c-clients_logo-refokus:hover {
+  padding: 1rem; }
+  .c-clients_logo-refokus svg {
+    transition: fill 300ms, transform 300ms ease-in-out; }
+  .c-clients_logo-refokus:hover svg {
     transform: scale(1.03);
     fill: #7443ff; }
 
 .c-clients_logo-bons {
+  fill: #BABDC2;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: 1rem;
-  fill: #BABDC2;
-  transition: fill 300ms, transform 300ms ease-in-out; }
-  .c-clients_logo-bons:hover {
+  padding: 1rem; }
+  .c-clients_logo-bons svg {
+    transition: fill 300ms, transform 300ms ease-in-out; }
+  .c-clients_logo-bons:hover svg {
     transform: scale(1.03);
     fill: #3BCEBE; }
 
 .c-clients_logo-atelier {
+  fill: #BABDC2;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding: 1rem;
-  fill: #BABDC2;
-  transition: fill 300ms, transform 300ms ease-in-out;
   position: relative;
   top: 5.2px; }
-  .c-clients_logo-atelier:hover {
+  .c-clients_logo-atelier svg {
+    transition: fill 300ms, transform 300ms ease-in-out; }
+  .c-clients_logo-atelier:hover svg {
     transform: scale(1.03);
     fill: #E88F86; }
 
 .c-clients_logo-ficovisual {
+  fill: #BABDC2;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding: 1rem;
-  fill: #BABDC2;
-  transition: fill 300ms, transform 300ms ease-in-out;
   margin-right: 0; }
-  .c-clients_logo-ficovisual:hover {
+  .c-clients_logo-ficovisual svg {
+    transition: fill 300ms, transform 300ms ease-in-out; }
+  .c-clients_logo-ficovisual:hover svg {
     transform: scale(1.03);
     fill: #4b5279; }
 
