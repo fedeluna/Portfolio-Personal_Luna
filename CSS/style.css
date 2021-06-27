@@ -1848,7 +1848,7 @@ body {
     .cc-footer {
       margin: 0; }
       .cc-footer .c-container {
-        padding: 4rem 1.25rem 1.25rem 1.25rem; } }
+        padding: 4rem 1.25rem 3.5rem 1.25rem; } }
 
 .c-footer_content {
   display: flex;
@@ -1897,7 +1897,8 @@ body {
   @media (max-width: 425px) {
     .c-footer_avatar {
       margin: 0; }
-      .c-footer_avatar h5, .c-footer_avatar p {
+      .c-footer_avatar h5,
+      .c-footer_avatar p {
         display: none; } }
 
 .c-footer_contact .c-text-2 {
