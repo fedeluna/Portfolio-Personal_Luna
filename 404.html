@@ -2,22 +2,28 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Title and Description -->
-    <title>Not Found</title>
+    <title>Federico Luna - 404 - Not Found</title>
+    <meta name="description" content="Where aesthetics & functionality meets...I help agencies & brands like Refokus, Bons and others to turn their ideas into designs. Great
+        designs and a healthy freelance relationship.">
+    <meta name="keywords" content="UX/UI Designer, Freelance Designer, Agencies, Branding">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
 
+    <!-- Animations (AOS) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/lef1xqr.css">
@@ -28,19 +34,33 @@
 
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- Header with Bootstrap -->
     <header class="c-header">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-scroll">
 
             <div class="container-fluid">
 
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <!-- Menu Icon -->
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <div class="c-menu-icon">
+                        <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13V13C20 13.5523 19.5523 14 19 14H1C0.447716 14 0 13.5523 0 13V13Z"
+                                fill="#FF4F3C" />
+                            <path
+                                d="M0 7C0 6.44772 0.447715 6 1 6H19C19.5523 6 20 6.44772 20 7V7C20 7.55228 19.5523 8 19 8H1C0.447716 8 0 7.55228 0 7V7Z"
+                                fill="#FF4F3C" />
+                            <path
+                                d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1V1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1V1Z"
+                                fill="#FF4F3C" />
+                        </svg>
+                    </div>
+
                 </button>
 
+                <!-- List Links -->
                 <div class="navbar-collapse collapse" id="navbarSupportedContent">
 
                     <ul class="navbar-nav">
@@ -84,14 +104,14 @@
 
                 </div>
 
+                <!-- Social Links Wrapper -->
                 <div class="social-wrapper">
 
                     <ul class="c-nav_social">
 
                         <li>
                             <a href="https://www.linkedin.com/in/ficovisual/" target="/blank">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M16 9.81132V16H12.5561V10.1887C12.5561 8.75472 12.0538 7.77359 10.8341 7.77359C9.90135 7.77359 9.32735 8.45283 9.11211 9.05661C9.04036 9.28302 8.96861 9.5849 8.96861 9.96226V16H5.52466C5.52466 16 5.59641 6.18868 5.52466 5.20755H8.96861V6.71698C9.39911 5.96227 10.2601 4.90566 12.0538 4.90566C14.278 4.90566 16 6.49057 16 9.81132ZM1.93722 0C0.789236 0 0 0.830189 0 1.88679C0 2.9434 0.717488 3.77359 1.86547 3.77359C3.0852 3.77359 3.80269 2.9434 3.80269 1.88679C3.87444 0.754717 3.15695 0 1.93722 0ZM0.215246 16H3.65919V5.20755H0.215246V16Z"
                                         fill="#BABDC2" />
@@ -101,8 +121,7 @@
 
                         <li>
                             <a href="https://www.behance.net/ficovisual" target="/blank">
-                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M7.63393 5.0072C7.95536 4.48921 8.11607 3.88489 8.11607 3.19424C8.11607 1.38129 6.66964 0 5.0625 0H0.401786C0.160714 0 0 0.172662 0 0.431655V11.3957C0 11.6547 0.160714 11.8273 0.401786 11.8273H5.54464C7.47321 11.8273 9.08036 10.187 9.08036 8.1151C9.08036 6.82014 8.51786 5.69784 7.63393 5.0072ZM2.00893 2.2446H5.0625C5.625 2.2446 6.02678 2.76259 6.02678 3.28058C6.02678 3.88489 5.54464 4.31655 5.0625 4.31655H2.00893V2.2446ZM5.625 9.66906H2.00893V6.56116H5.625C6.42857 6.56116 7.07143 7.25179 7.07143 8.1151C7.07143 8.97841 6.42857 9.66906 5.625 9.66906Z"
                                         fill="#BABDC2" />
@@ -118,8 +137,7 @@
 
                         <li>
                             <a href="https://dribbble.com/FicoVisual" target="/blank">
-                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M7 0C3.13558 0 0 3.13558 0 7C0 10.8644 3.13558 14 7 14C10.8568 14 14 10.8644 14 7C14 3.13558 10.8568 0 7 0ZM11.6236 3.22668C12.4588 4.24403 12.9599 5.54229 12.9751 6.94684C12.7777 6.90891 10.8037 6.5065 8.81453 6.75706C8.76899 6.65836 8.73101 6.55204 8.68547 6.44578C8.56398 6.15729 8.42734 5.86119 8.29067 5.58027C10.4924 4.6844 11.4946 3.39371 11.6236 3.22668ZM7 1.03254C8.51843 1.03254 9.9078 1.60195 10.9631 2.53579C10.8568 2.68764 9.95334 3.8948 7.82753 4.69197C6.84814 2.89262 5.76249 1.41974 5.59545 1.19197C6.04336 1.08568 6.51411 1.03254 7 1.03254ZM4.45664 1.59436C4.61606 1.80694 5.67897 3.28742 6.67354 5.04879C3.87961 5.79285 1.41215 5.77767 1.14642 5.77767C1.53362 3.92516 2.78633 2.38395 4.45664 1.59436ZM1.01735 7.00761C1.01735 6.94684 1.01735 6.88612 1.01735 6.82539C1.27549 6.83296 4.17571 6.87094 7.15943 5.97507C7.33408 6.3091 7.4935 6.65074 7.64536 6.99239C7.56941 7.01518 7.48589 7.03797 7.40998 7.06072C4.32755 8.05529 2.68764 10.7733 2.55098 11.0011C1.60195 9.94578 1.01735 8.54123 1.01735 7.00761ZM7 12.9826C5.6182 12.9826 4.34273 12.5119 3.33297 11.7223C3.43926 11.5022 4.65399 9.16379 8.02493 7.987C8.04011 7.97939 8.04772 7.97939 8.06291 7.97182C8.90562 10.1507 9.24731 11.9805 9.33839 12.5043C8.61713 12.8156 7.82753 12.9826 7 12.9826ZM10.333 11.9577C10.2722 11.5933 9.95334 9.84708 9.17136 7.69847C11.0467 7.40237 12.6865 7.8883 12.8916 7.95664C12.6334 9.61931 11.6768 11.0542 10.333 11.9577Z"
                                         fill="#BABDC2" />
@@ -136,6 +154,17 @@
         </nav>
 
     </header>
+
+    <!-- Close Mobile-Menu Script -->
+    <script>
+        const navbar = document.querySelector('#navbarSupportedContent');
+        const remove = document.querySelector('.nav-item');
+
+        addEventListener('click', () => {
+            navbar.classList.remove('show');
+
+        })
+    </script>
     <!-- ---------------------------------------------------------------------------- -->
 
     <div class="c-section cc-404">
@@ -167,40 +196,41 @@
         <div class="c-footer_nav cc-404-footer">
 
             <div class="c-footer_nav-links">
-                <a href="../index.html#Home">Home</a>
-                <a href="../index.html#Expertise">Expertise</a>
-                <a href="../index.html#Work">Work</a>
-                <a href="../index.html#Process">My Process</a>
-                <a href="../index.html#WhyMe">Why Me?</a>
-                <a href="../index.html#FAQs">FAQs</a>
+                <a href="index.html#Home">Home</a>
+                <a href="index.html#Expertise">Expertise</a>
+                <a href="index.html#Work">Work</a>
+                <a href="index.html#Process">My Process</a>
+                <a href="index.html#WhyMe">Why Me?</a>
+                <a href="index.html#FAQs">FAQs</a>
             </div>
-    
+
             <p class="c-footer_nav-legals">
                 © 2021 - Federico Luna - Made For Coderhouse
             </p>
-    
+
         </div>
 
     </footer>
     <!-- ---------------------------------------------------------------------------- -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
-    <!-- Scrollspy script -->
+    <!-- Script for Copy to Clipboard -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ScrollSpy Script -->
     <script src="Libraries/simple-scrollspy.min.js"></script>
-    <script>
-        window.onload = function () {
-            scrollSpy('#navbar-scroll', {
-                sectionClass: '.scrollspy',
-                menuActiveTarget: '.nav-link',
-                offset: 200,
-            })
-        }
-    </script>
 
+    <!-- Main Script -->
+    <script src="js/main.js"></script>
+
+    <!-- Animations (AOS) Script -->
+    <!-- Default settings: data-aos="fade-up" data-aos-duration="1200" data-aos-easinig="ease-in-sine" data-aos-offset="400" -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
