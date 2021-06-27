@@ -1,30 +1,25 @@
 .cc-section_hero {
     margin-bottom: 5rem;
     padding: 2rem 0 0 0;
-
-    @media (max-width:991px) {
-
+    @media (max-width: 991px) {
         margin-bottom: 2.5rem;
-        
     }
 }
 
 .c-hero_avatar-mobile {
     display: none;
-
-    @media (max-width:991px) {
+    @media (max-width: 991px) {
         display: flex;
         align-items: center;
         justify-content: flex-start;
         padding: 5.5rem 0 0 0;
-
         img {
             width: 4rem;
             height: 4rem;
             margin-right: 1rem;
         }
-
-        .c-text-2, .c-title-5 {
+        .c-text-2,
+        .c-title-5 {
             margin: unset;
         }
     }
@@ -35,23 +30,18 @@
     justify-content: flex-start;
     padding-top: 8rem;
     position: relative;
-
-    @media (max-width:991px) {
+    @media (max-width: 991px) {
         padding-top: 3rem;
-
         .c-title-1 {
             margin-bottom: 1.5rem;
         }
-
     }
-
     .c-title-1 {
         display: flex;
         justify-content: start;
         margin-bottom: 3rem;
         max-width: 56rem;
-
-        @media (max-width:425px) {
+        @media (max-width: 425px) {
             margin-bottom: 0.5rem;
         }
     }
@@ -62,17 +52,15 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    position: relative;
 }
 
 .c-button-dropdown_wrapper {
-
     &:hover .c-button_dropdown {
         visibility: visible;
         opacity: 1;
     }
-
     @media (max-width:600px) {
-
         &:hover .c-button_dropdown {
             visibility: hidden;
             opacity: 0;
@@ -82,19 +70,15 @@
 
 .c-button-wrapper {
     padding-top: 1rem;
-
     .c-button-1 {
-        @media (max-width:991px) {
+        @media (max-width: 991px) {
             display: none;
         }
     }
-
     .c-button-1.mobile {
         display: none;
-
-        @media (max-width:991px) {
+        @media (max-width: 991px) {
             display: inherit;
-            
         }
     }
 }
@@ -112,14 +96,13 @@
     box-shadow: 24px 24px 64px $shadow-black;
     border-radius: 8px;
     transition: opacity 300ms ease-in-out;
-
     .c-button_divider {
         height: 1px;
         background-color: $gray-03;
         opacity: 0.64;
     }
-
-    a, .c-link_copy {
+    a,
+    .c-link_copy {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -129,23 +112,18 @@
         background-color: $gray-04;
         transition: all 300ms ease-in-out;
         cursor: pointer;
-
         p {
             margin: unset;
         }
-
         svg {
             margin-right: 0.5rem;
-
             path {
                 transition: all 300ms ease-in-out;
             }
         }
-
         &:hover {
             color: $red;
             background-color: #f3f3f3;
-
             svg path {
                 fill: $red;
             }
@@ -158,15 +136,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-
     .c-button-1 {
         margin-right: 0.75rem;
     }
-
     @media (max-width:425px) {
         flex-direction: column;
         align-items: flex-start;
-
         .c-button-1 {
             margin-bottom: 0.8rem;
         }
@@ -183,18 +158,15 @@
     position: absolute;
     right: 0%;
     top: 10%;
-
-    @media (max-width:991px) {
+    @media (max-width: 991px) {
         top: -32%;
     }
-
     @media (max-width:698px) {
         top: -20%;
     }
-
     @media (max-width:425px) {
         top: -35%;
-        right: 25%; 
+        right: 25%;
     }
 }
 
@@ -202,15 +174,89 @@
     display: flex;
     justify-content: flex-start;
     padding-top: 1rem;
-
+    animation: Avatar;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    right: 37.25%;
+    top: -400%;
+    z-index: 300;
+    transform: scale(130%);
     img {
         width: 6.5rem;
         height: 6.5rem;
         margin-right: 1.5rem;
     }
-
     @media (max-width:991px) {
         display: none;
+    }
+    @keyframes Avatar {
+        0% {
+            top: -300%;
+            opacity: 0;
+        }
+        50% {
+            top: -450%;
+            opacity: 1;
+        }
+        80% {
+            top: -450%;
+            right: 37.25%;
+            transform: scale(130%);
+        }
+        100% {
+            top: 0%;
+            right: 0%;
+            transform: scale(100%);
+        }
+    }
+}
+
+.c-opening-bar {
+    position: absolute;
+    bottom: 0%;
+    height: 6px;
+    width: 0%;
+    background-color: $red;
+    z-index: 400;
+    animation: Loading;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.2s;
+    @keyframes Loading {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+}
+
+.c-opening-bg {
+    overflow: hidden;
+    background-color: $gray-03;
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    animation: Opening;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    @keyframes Opening {
+        0% {
+            height: 100vh;
+            top: 0px;
+        }
+        100% {
+            height: 0vh;
+            top: 1200px;
+        }
     }
 }
 
