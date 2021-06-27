@@ -1,4 +1,3 @@
-/* ----------------------------------------------------------------------------  */
 /* Rooting */
 root {
   margin: 0;
@@ -228,6 +227,7 @@ h6 {
     transform: translateX(4px);
     opacity: 0.75; }
 
+/* ----------------------------------------------------------------------------  */
 body {
   margin: 0px;
   padding: 0px;
@@ -241,7 +241,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* ----------------------------------------------------------------------------  */
 /* Header */
 .c-header {
   background-color: #FAFAFA;
