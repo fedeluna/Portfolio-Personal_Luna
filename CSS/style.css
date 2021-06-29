@@ -855,8 +855,8 @@ body {
   padding: 12.5rem 4rem 4rem 4rem;
   margin-right: 2rem;
   border-radius: 4px;
-  background-color: #FAFAFA;
-  transition: box-shadow 500ms, color 500ms, transform 500ms;
+  background-color: transparent;
+  transition: box-shadow 500ms, color 500ms, transform 500ms, background-color;
   transition-timing-function: ease-in-out;
   transform: scale(108%); }
   @media (max-width: 991px) {
@@ -881,8 +881,8 @@ body {
       padding: 12.5rem 4rem 4rem 4rem;
       margin-right: 2rem;
       border-radius: 4px;
-      background-color: #FAFAFA;
-      transition: box-shadow 500ms, color 500ms, transform 500ms;
+      background-color: transparent;
+      transition: box-shadow 500ms, color 500ms, transform 500ms, background-color;
       transition-timing-function: ease-in-out;
       transform: unset;
       margin-right: 0.5rem; } }
@@ -912,8 +912,8 @@ body {
   padding: 12.5rem 4rem 4rem 4rem;
   margin-right: 2rem;
   border-radius: 4px;
-  background-color: #FAFAFA;
-  transition: box-shadow 500ms, color 500ms, transform 500ms;
+  background-color: transparent;
+  transition: box-shadow 500ms, color 500ms, transform 500ms, background-color;
   transition-timing-function: ease-in-out;
   top: 64px; }
   @media (max-width: 991px) {
@@ -930,10 +930,11 @@ body {
     padding: 12.5rem 4rem 4rem 4rem;
     margin-right: 2rem;
     border-radius: 4px;
-    background-color: #FAFAFA;
-    transition: box-shadow 500ms, color 500ms, transform 500ms;
+    background-color: transparent;
+    transition: box-shadow 500ms, color 500ms, transform 500ms, background-color;
     transition-timing-function: ease-in-out;
-    transform: scale(1); }
+    transform: scale(1);
+    background-color: transparent; }
     @media (max-width: 991px) {
       .c-expertise_card02:hover + .c-expertise_card01 {
         padding: 10.25rem 1.5rem 1.5rem 1.5rem; } }
@@ -950,9 +951,10 @@ body {
     padding: 12.5rem 4rem 4rem 4rem;
     margin-right: 2rem;
     border-radius: 4px;
-    background-color: #FAFAFA;
-    transition: box-shadow 500ms, color 500ms, transform 500ms;
+    background-color: transparent;
+    transition: box-shadow 500ms, color 500ms, transform 500ms, background-color;
     transition-timing-function: ease-in-out;
+    background-color: #FAFAFA;
     transform: scale(1.08); }
     @media (max-width: 991px) {
       .c-expertise_card02:hover {
@@ -979,8 +981,8 @@ body {
       padding: 12.5rem 4rem 4rem 4rem;
       margin-right: 2rem;
       border-radius: 4px;
-      background-color: #FAFAFA;
-      transition: box-shadow 500ms, color 500ms, transform 500ms;
+      background-color: transparent;
+      transition: box-shadow 500ms, color 500ms, transform 500ms, background-color;
       transition-timing-function: ease-in-out;
       top: 0;
       z-index: 1;
@@ -1001,8 +1003,8 @@ body {
         padding: 12.5rem 4rem 4rem 4rem;
         margin-right: 2rem;
         border-radius: 4px;
-        background-color: #FAFAFA;
-        transition: box-shadow 500ms, color 500ms, transform 500ms;
+        background-color: transparent;
+        transition: box-shadow 500ms, color 500ms, transform 500ms, background-color;
         transition-timing-function: ease-in-out;
         transform: unset;
         margin-right: 0.5rem; } }
@@ -1023,8 +1025,8 @@ body {
         padding: 12.5rem 4rem 4rem 4rem;
         margin-right: 2rem;
         border-radius: 4px;
-        background-color: #FAFAFA;
-        transition: box-shadow 500ms, color 500ms, transform 500ms;
+        background-color: transparent;
+        transition: box-shadow 500ms, color 500ms, transform 500ms, background-color;
         transition-timing-function: ease-in-out;
         transform: unset;
         margin-right: 0;

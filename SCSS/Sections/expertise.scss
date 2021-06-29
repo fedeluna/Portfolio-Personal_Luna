@@ -53,8 +53,8 @@
     padding: 12.5rem 4rem 4rem 4rem;
     margin-right: 2rem;
     border-radius: 4px;
-    background-color: $gray-04;
-    transition: box-shadow 500ms, color 500ms, transform 500ms;
+    background-color: transparent;
+    transition: box-shadow 500ms, color 500ms, transform 500ms, background-color;
     transition-timing-function: ease-in-out;
     @media (max-width: 991px) {
         padding: 10.25rem 1.5rem 1.5rem 1.5rem;
@@ -95,13 +95,15 @@
     &:hover+.c-expertise_card01 {
         @include c-expertise_card($black, unset);
         transform: scale(1);
+        background-color: transparent;
         .c-expertise_img {
             transform: translateY(-1rem);
         }
     }
     &:hover {
         @include c-expertise_card($red, 64px 64px 160px $shadow-black);
-        transform: scale(1.08)
+        background-color: $gray-04;
+        transform: scale(1.08);
     }
     .c-expertise_img {
         @include c-expertise_img(12rem, -5rem);
