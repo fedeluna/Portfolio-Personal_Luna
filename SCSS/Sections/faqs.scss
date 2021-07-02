@@ -1,4 +1,3 @@
-
 .cc-section_faqs {
     padding-top: 7.5rem;
     padding-bottom: 0;
@@ -7,23 +6,22 @@
 .cc-container_faqs {
     display: flex;
     justify-content: space-between;
-
-    @media (max-width:425px) {
+    @media (max-width: 425px) {
         padding: 0;
     }
 }
 
 .c-faqs_col01 {
     max-width: 34rem;
-
+    @media (max-width: 680px) {
+        max-width: 100%;
+    }
     .c-title-2 {
         margin-bottom: 5rem;
-
-        @media (max-width:991px) {
+        @media (max-width: 991px) {
             margin-bottom: 3.5rem;
         }
-
-        @media (max-width:425px) {
+        @media (max-width:680px) {
             padding: 0 1.25rem;
         }
     }
@@ -35,11 +33,9 @@
     background-color: $gray-03;
     margin-bottom: 2rem;
     opacity: 0.64;
-
-    @media (max-width:425px) {
+    @media (max-width: 425px) {
         margin-bottom: 1rem;
     }
-
 }
 
 .accordion-item {
@@ -47,12 +43,9 @@
     border: unset;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
-
-    @media (max-width:991px) {
+    @media (max-width: 991px) {
         margin-bottom: 1.5rem;
-        
     }
-
     @media (max-width:425px) {
         margin-bottom: 1rem;
     }
@@ -72,20 +65,16 @@
     padding: 0 2rem;
     transition: padding 300ms, box-shadow 300ms ease-in-out;
     border-radius: 0.5rem 0.5rem 0 0;
-
     p {
         margin-right: 2.5rem;
-        
-        @media (max-width:425px) {
+        @media (max-width: 425px) {
             margin-right: 1.5rem;
         }
     }
-
     &:focus {
         border-color: unset;
         box-shadow: unset;
     }
-
     &::after {
         flex-shrink: 0;
         width: 2.5rem;
@@ -99,24 +88,19 @@
         box-shadow: 0px 0px 0px $shadow-black;
         transition: transform 300ms, box-shadow 300ms ease-in-out;
     }
-
     &:not(.collapsed) {
         color: $red;
         background-color: $gray-04;
         box-shadow: unset;
         padding-top: 2rem;
-    } 
-
+    }
     &:not(.collapsed)::after {
         background-image: url(../Images/Assets_FAQs_arrow02.svg);
         transform: rotate(-90deg);
         box-shadow: -8px 12px 32px $shadow-black;
     }
-
     @media (max-width:991px) {
-
         padding: 1.5rem 1.5rem 0 1.5rem;
-        
     }
 }
 
@@ -131,7 +115,6 @@
     0% {
         box-shadow: 64px -32px 0160px rgba(0, 0, 0, 0);
     }
-
     100% {
         box-shadow: 64px -32px 160px rgba(0, 0, 0, 0.24);
     }
@@ -145,25 +128,19 @@
     line-height: 1.5rem;
     letter-spacing: inherit;
     transition: box-shadow 300ms easy-in-out;
-
-    @media (max-width:991px) {
-
+    @media (max-width: 991px) {
         padding: 0 1.5rem 1.5rem 1.5rem;
-        
     }
 }
 
 .c-faqs_col02 {
     margin-left: 2.5rem;
     width: 27rem;
-
     img {
         width: 100%;
         border-radius: 0.5rem;
     }
-
     @media (max-width:991px) {
         display: none;
     }
-
 }

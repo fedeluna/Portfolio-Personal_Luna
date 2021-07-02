@@ -43,9 +43,15 @@
         75% {
             margin-left: 55px;
         }
+        99% {
+            margin-left: 0px;
+            transform: scale(100%) translateY(0%);
+            z-index: 200;
+        }
         100% {
             margin-left: 0px;
             transform: scale(100%) translateY(0%);
+            z-index: -1;
         }
     }
 }
@@ -172,6 +178,11 @@
             margin-bottom: 0.8rem;
         }
     }
+    @media (max-width:991px) {
+        .c-button-2 {
+            margin-bottom: 0.5rem;
+        }
+    }
 }
 
 .c-alert {
@@ -231,10 +242,17 @@
             right: 37.25%;
             transform: scale(130%);
         }
+        99% {
+            top: 0%;
+            right: 0%;
+            transform: scale(100%);
+            z-index: 300;
+        }
         100% {
             top: 0%;
             right: 0%;
             transform: scale(100%);
+            z-index: -1;
         }
     }
 }
@@ -259,7 +277,7 @@
             width: 100%;
         }
     }
-    @media (max-width:425px) {
+    @media (max-width:991px) {
         top: 0%;
         bottom: unset;
     }

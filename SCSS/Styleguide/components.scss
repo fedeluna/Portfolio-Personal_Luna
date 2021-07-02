@@ -1,12 +1,10 @@
-
 /* Section & Container */
 
 .c-section {
     padding: 5rem 0;
     display: block;
     position: relative;
-
-    @media (max-width:991px) {
+    @media (max-width: 991px) {
         padding: 2.5rem 0;
     }
 }
@@ -18,18 +16,18 @@
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     max-width: 1184px;
-
-    @media (max-width:991px) {
+    @media (max-width: 991px) {
         max-width: 100%;
     }
-
     @media (max-width:425px) {
         padding-left: 1.25rem;
         padding-right: 1.25rem;
     }
 }
 
+
 /* ----------------------------------------------------------------------------  */
+
 
 /* Buttons */
 
@@ -37,7 +35,6 @@
     color: $color;
     background-color: $bg;
     border: $border;
-    
     border-radius: 100px;
     display: flex;
     align-items: center;
@@ -53,7 +50,6 @@
 
 .c-button-1 {
     @include c-button($gray-04, $red, none);
-
     &:hover {
         color: $gray-04;
         background-color: $red;
@@ -66,7 +62,7 @@
     @include c-button($red, none, none);
     border-style: inset;
     border: 2px solid $red;
-
+    padding: 0.75 1.6rem 0.75rem 1.6rem;
     &:hover {
         color: $red;
         background: #FAD7D3;
@@ -83,12 +79,10 @@
     text-decoration: unset;
     transition: color 300ms, opacity 300ms;
     transition-timing-function: ease-in-out;
-
     &:hover {
         color: $red;
         opacity: 0.75;
     }
-
     svg {
         fill: $red;
         margin-left: 0.3rem;
@@ -96,7 +90,6 @@
         transition: fill 300ms, transform 300ms, opacity 300ms;
         transition-timing-function: ease-in-out;
     }
-
     &:hover svg {
         fill: $red;
         transform: translateX(4px);
